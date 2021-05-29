@@ -1,0 +1,187 @@
+/*fuentes*/
+@font-face {
+    font-family: diviajando;
+    src: url(fonts/Travel.ttf);
+}
+@font-face {
+    font-family: texto_general;
+    src: url(fonts/warung-kopi.regular.otf);
+}
+@font-face {
+    font-family: iconos;
+    src: url(fonts/travelcons.ttf);
+}
+@font-face {
+    font-family: numeros_footer;
+    src: url(fonts/warung-kopi.light.otf);
+}
+@font-face {
+    font-family: redes;
+    src: url(fonts/Sosmed_phone-Regular.otf);
+}
+/*general*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#container{
+    width: 100%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+/* Menu */
+header{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(43, 33, 33);
+    font-size: 26px;
+    font-family: diviajando;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+ul, ol{
+    list-style: none;
+}
+.menu{
+    width: 1045px;
+    text-align: center;
+    margin: auto;
+}
+.menu li a{
+    width: 135px;
+}
+.menu li ul li a{
+    width: 135px;
+}
+.menu > li{
+    float: left;
+}
+.menu li a{
+    background-color: rgb(43, 33, 33);
+    color: white;
+    text-decoration: none;
+    padding: 20px 37px;
+    display: block;
+}
+.menu li a:hover{
+    background: rgb(36, 0, 0);
+}
+.menu li ul{
+    display: none;
+    position: absolute;
+    min-width: 138px;
+}
+.menu li:hover > ul{
+    display: block;
+}
+/*contenido*/
+section{
+    background-color: rgb(255, 255, 255);
+    font-family: texto_general;
+    width: 100%;
+    height: 1430px;
+}
+#banner{
+    width: 100%;
+    height: 200px;
+    background-image: url('images/banner_aqp.jpg');
+}
+#reseña{
+    width: 100%;
+    float: left;
+}
+#parrafo1{
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    margin-top: 0px;
+    border: dashed 3px rgb(38, 68, 92);
+    border-top: none;
+    padding: 20px;
+}
+#parrafo_paquete{
+    width: 80%;
+    height: 1000px;
+    margin: auto;
+    margin-top: 50px;
+}
+#beneficios{
+    width: 50%;
+    float: left;
+}
+#imagen1{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+#texto_atracciones{
+    width: 50%;
+    float: right;
+}
+#imagen2{
+    width: 50%;
+    float: right;
+    text-align: left;
+}
+#lugares_cercanos{
+    width: 50%;
+    float: left;
+}
+#imagen3{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+#texto_final{
+    text-align: center;
+}
+/*pie de pagina*/
+footer{
+    width: 98.5%;
+    height: 78px;
+    padding: 10px;
+    background-color: rgb(57, 69, 77);
+    text-align: center;
+    font-size: 30px;
+    font-family: diviajando;
+    color: white;
+    bottom: 0px;
+    line-height: 40px;
+}
+#sunat{
+    color: cornsilk;
+}
+small{
+    font-size: 0.7em;
+}
+#span_footer{
+    font-family: numeros_footer;
+    transform: scaleX(1);
+    font-size: 0.9em;
+}
+/*atributos generales*/
+.new_space{
+    width: 100%;
+    margin-top: 50px;
+    float: left;
+}
+.texto_parrafo{
+    font-size: 25px;
+    text-align: justify;
+    line-height: 30px;
+}
+.titulo_central{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(36, 0, 0);
+}
+.iconos{
+    font-family: iconos;
+    font-size:0.7em;
+    color: rgb(36, 0, 0);
+}
+.social{
+    font-family: redes;
+}
